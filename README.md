@@ -1,7 +1,11 @@
 # visionTransformer
+## An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale<br/>   <br/>   
 
-
-비전 분야에 트랜스포머 구조를 처음 적용한 논문
+비전 분야에 트랜스포머 구조를 처음 적용한 논문이다.<br/>   
+트랜스포머 모델이 nlp분야에 엄청난 파장을 일으킴으로써 비전분야에도 트랜스포머의 인코더 부분을 적용시킨 것이다.<br/>   
+공식 깃허브와 paper는 다음과 같다.<br/>   <br/>   
+https://github.com/google-research/vision_transformer<br/>   
+https://arxiv.org/abs/2010.11929<br/>   <br/>   <br/>   
 
 
 ## Introduction
