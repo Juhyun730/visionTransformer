@@ -194,7 +194,7 @@ Cnn에서의 receptive field와 같은 것이라고 생각하면 됨.(어텐션�
 ### SELF SUPERVISED LEARNING
 - 트랜스포머 기반 연구들은 self-supervised pre-training에서도 많은 성공을 보인다.<br/>
 - 이 논문엔서는 BERT에서 사용된 masked language modeling task를 모방하여 ‘masked patch prediction for self-supervision’를 실험하였고, 그 결과 ViT-B/16 모델은 image-net 데이터에서 79.9 % 정확도를 보일 수 있었다고 말한다.<br/>
--이 때 masked patch 실험과정은 다음과 같다.<br/>
+- 이 때 masked patch 실험과정은 다음과 같다.<br/>
 *1.이미지 패치 중 50%를 mask로 가리거나 아예 다른 패치로 대체한다. <br/>
 *2. 평균 3bit색상을 예측, 4 × 4 downsized된 패치 예측(16x16패치기준), 패치의 Regression 예측을 진행함.<br/>
 
